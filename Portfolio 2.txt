@@ -1,0 +1,3 @@
+you are a btech first year student, professor asked you to  make a personal portfolio. it must include web pages, web sections: homepage (name, two line intro), about me, education, skills, Achievements. 
+
+antigravity, website portfolio, GitHub upload files, vercel hosting

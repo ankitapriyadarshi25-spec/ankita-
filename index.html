@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ankita Priyadarshi | B.Tech First Year Student & Tech Explorer</title>
+  <meta name="description" content="Personal portfolio of Ankita Priyadarshi - B.Tech First Year student at JECRC University, Jaipur. Passionate about C programming, Java, Problem Solving, Generative AI, Prompt Writing, and Digital Productivity.">
+  <meta name="keywords" content="Ankita Priyadarshi, JECRC University, B.Tech Portfolio, C Programming, Generative AI, Prompt Writing, Digital Literacy, Fine Arts, Student Portfolio">
+  <meta name="author" content="Ankita Priyadarshi">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%200%20100%20100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Decorative Orbs -->
+  <div class="background-decorations" aria-hidden="true">
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="Ankita Priyadarshi Home">
+        <span class="logo-badge">AP</span>
+        <span class="logo-text">Ankita<span class="gradient-text">.dev</span></span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-links" id="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About Me</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#achievements" class="nav-link">Milestones</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Nav Action Controls -->
+      <div class="nav-actions">
+        <!-- Resume Trigger -->
+        <button type="button" class="btn btn-outline btn-sm resume-btn" id="nav-resume-btn" aria-label="Open Resume Preview">
+          <i class="fa-solid fa-file-pdf"></i>
+          <span>Resume</span>
+        </button>
+
+        <!-- Dark / Light Theme Toggle -->
+        <button type="button" class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle light/dark theme" title="Switch Theme">
+          <i class="fa-solid fa-moon dark-icon"></i>
+          <i class="fa-solid fa-sun light-icon"></i>
+        </button>
+
+        <!-- Mobile Menu Hamburger -->
+        <button type="button" class="hamburger-btn" id="hamburger-btn" aria-label="Open navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer Overlay -->
+  <div class="mobile-nav-drawer" id="mobile-drawer" aria-hidden="true">
+    <div class="mobile-drawer-header">
+      <div class="logo-badge">AP</div>
+      <button type="button" class="close-drawer-btn" id="close-drawer-btn" aria-label="Close menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="#home" class="mobile-link">Home</a>
+      <a href="#about" class="mobile-link">About Me</a>
+      <a href="#education" class="mobile-link">Education</a>
+      <a href="#skills" class="mobile-link">Skills</a>
+      <a href="#achievements" class="mobile-link">Milestones</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+      <button type="button" class="btn btn-primary mobile-resume-btn" id="mobile-resume-trigger">
+        <i class="fa-solid fa-download"></i> View & Download Resume
+      </button>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO / HOMEPAGE SECTION -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        
+        <!-- Left Hero Content -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulsing-dot"></span>
+            <span>B.Tech First Year Student &bull; JECRC University, Jaipur</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text gradient-name">Ankita Priyadarshi</span>
+          </h1>
+
+          <div class="hero-typing-wrapper">
+            <span class="static-prefix">I am a </span>
+            <span class="dynamic-typing" id="dynamic-typing">B.Tech First Year Student</span>
+            <span class="typing-cursor">|</span>
+          </div>
+
+          <p class="hero-intro">
+            A curious learner stepping into the vast world of computing. Actively building robust fundamentals in 
+            <strong>C programming</strong>, exploring <strong>Java</strong>, tackling <strong>algorithmic problem-solving</strong>, 
+            and harnessing the creative frontiers of <strong>Generative AI, prompt craft, and digital productivity</strong>.
+          </p>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-cta-group">
+            <button type="button" class="btn btn-primary" id="hero-resume-btn">
+              <i class="fa-solid fa-file-arrow-down"></i>
+              <span>Download Resume</span>
+            </button>
+            <a href="#contact" class="btn btn-glass">
+              <i class="fa-regular fa-paper-plane"></i>
+              <span>Contact Me</span>
+            </a>
+            <a href="#about" class="btn btn-subtle">
+              <span>Know My Story</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Quick Highlight Stat Chips -->
+          <div class="hero-stats-row">
+            <div class="stat-pill">
+              <i class="fa-solid fa-code text-cyan"></i>
+              <span>C & Java Foundations</span>
+            </div>
+            <div class="stat-pill">
+              <i class="fa-solid fa-brain text-purple"></i>
+              <span>GenAI & Prompting</span>
+            </div>
+            <div class="stat-pill">
+              <i class="fa-solid fa-palette text-pink"></i>
+              <span>Fine Arts & Journaling</span>
+            </div>
+            <div class="stat-pill">
+              <i class="fa-solid fa-location-dot text-amber"></i>
+              <span>Jaipur &bull; Patna</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual Card -->
+        <div class="hero-visual">
+          <div class="profile-card-outer">
+            <div class="profile-card-inner">
+              <div class="profile-avatar-wrapper">
+                <div class="profile-avatar">
+                  <div class="avatar-monogram">AP</div>
+                  <div class="avatar-ring"></div>
+                </div>
+                <div class="floating-badge badge-top-right">
+                  <i class="fa-solid fa-sparkles text-amber"></i>
+                  <span>GenAI Explorer</span>
+                </div>
+                <div class="floating-badge badge-bottom-left">
+                  <i class="fa-solid fa-terminal text-cyan"></i>
+                  <span>C Programmer</span>
+                </div>
+              </div>
+
+              <div class="profile-meta">
+                <h2 class="profile-name">Ankita Priyadarshi</h2>
+                <p class="profile-role">B.Tech 1st Year (CSE / Engineering)</p>
+                <p class="profile-institute">
+                  <i class="fa-solid fa-building-columns"></i> JECRC University, Jaipur, India
+                </p>
+                
+                <div class="profile-quick-contact">
+                  <a href="mailto:ankita.priyadarshi25@gmail.com" class="profile-contact-chip" title="Send Email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>ankita.priyadarshi25@gmail.com</span>
+                  </a>
+                  <a href="tel:9102748512" class="profile-contact-chip" title="Call Phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+91 9102748512</span>
+                  </a>
+                </div>
+
+                <div class="profile-socials">
+                  <a href="https://www.linkedin.com/in/ankita-priyadarshi" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile" title="Connect on LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                  <a href="mailto:ankita.priyadarshi25@gmail.com" class="social-icon-btn" aria-label="Email" title="Direct Email">
+                    <i class="fa-solid fa-envelope"></i>
+                  </a>
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile" title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <button type="button" class="social-icon-btn copy-btn" id="copy-quick-email" title="Copy Email Address" aria-label="Copy Email">
+                    <i class="fa-regular fa-copy"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Scroll Indicator -->
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to About Me section">
+        <span>Scroll to explore</span>
+        <i class="fa-solid fa-angles-down bounce"></i>
+      </a>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-regular fa-user"></i> Getting to Know Me</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">Bridging analytical computation with creative design, daily reflection, and curiosity.</p>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Main Narrative Column -->
+          <div class="about-main-card glass-card">
+            <div class="about-intro-badge">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>Engineering Journey &bull; Class of 2026-2030</span>
+            </div>
+            <h3 class="about-heading">A passionate first-year engineer fueled by curiosity, logic, and visual aesthetics.</h3>
+            
+            <div class="about-paragraphs">
+              <p>
+                Hello! I am <strong>Ankita Priyadarshi</strong>, a dedicated <strong>B.Tech first-year student at JECRC University, Jaipur</strong>. Having completed my 12th standard in 2026 from <strong>SR Public School, Patna</strong> with Physics, Chemistry, Mathematics, English, and Fine Arts, I bring a distinct fusion of analytical rigor and artistic precision to my engineering journey.
+              </p>
+              <p>
+                Currently, my primary focus is strengthening my computer science foundations. I spend my days learning <strong>C programming</strong>, exploring core concepts of <strong>Java</strong>, and strengthening my intuition through <strong>challenging problem-solving questions</strong>. I believe that mastering foundational logic early on creates the baseline for building impactful, scalable software.
+              </p>
+              <p>
+                Beyond syntax, I am deeply fascinated by the transformative power of <strong>Generative AI, prompt writing, and digital productivity frameworks</strong>. I love discovering how modern AI models can augment our thinking, automate repetitive friction, and unlock creative potential.
+              </p>
+            </div>
+
+            <!-- Quote Banner -->
+            <div class="about-quote-box">
+              <i class="fa-solid fa-quote-left quote-icon"></i>
+              <p class="quote-text">
+                "Code is the logic that powers the future, while journaling and art keep our creative spirit grounded and intentional."
+              </p>
+            </div>
+
+            <!-- Personal Dimensions / Hobbies -->
+            <div class="about-hobbies-wrapper">
+              <h4 class="hobbies-title"><i class="fa-solid fa-heart text-pink"></i> My Hobbies & Passions:</h4>
+              <div class="hobbies-grid">
+                <div class="hobby-tag">
+                  <i class="fa-solid fa-book-open"></i>
+                  <div>
+                    <strong>Avid Reading</strong>
+                    <span>Tech blogs, non-fiction & literature</span>
+                  </div>
+                </div>
+                <div class="hobby-tag">
+                  <i class="fa-solid fa-pen-nib"></i>
+                  <div>
+                    <strong>Daily Journaling</strong>
+                    <span>Self-reflection, goal tracking & thoughts</span>
+                  </div>
+                </div>
+                <div class="hobby-tag">
+                  <i class="fa-solid fa-palette"></i>
+                  <div>
+                    <strong>Fine Arts</strong>
+                    <span>Sketching, composition & color balance</span>
+                  </div>
+                </div>
+                <div class="hobby-tag">
+                  <i class="fa-solid fa-bolt"></i>
+                  <div>
+                    <strong>Digital Productivity</strong>
+                    <span>Second-brain setups & smart workflows</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Side Highlights Column -->
+          <div class="about-pillars">
+            
+            <div class="pillar-card glass-card">
+              <div class="pillar-icon bg-gradient-cyan">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div class="pillar-content">
+                <h4>Foundational Programming</h4>
+                <p>Immersing in C language fundamentals, pointer arithmetic, memory management, and stepping into Java's object-oriented paradigm.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card glass-card">
+              <div class="pillar-icon bg-gradient-purple">
+                <i class="fa-solid fa-robot"></i>
+              </div>
+              <div class="pillar-content">
+                <h4>AI & Prompt Writing</h4>
+                <p>Experimenting with generative AI frameworks, structured prompt crafting, and exploring how AI reshapes modern development.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card glass-card">
+              <div class="pillar-icon bg-gradient-amber">
+                <i class="fa-solid fa-puzzle-piece"></i>
+              </div>
+              <div class="pillar-content">
+                <h4>Problem-Solving Drive</h4>
+                <p>Enthusiastic about breaking complex algorithmic puzzles into elegant, stepwise solutions with clarity and precision.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card glass-card">
+              <div class="pillar-icon bg-gradient-pink">
+                <i class="fa-solid fa-paintbrush"></i>
+              </div>
+              <div class="pillar-content">
+                <h4>Creative & Reflective Eye</h4>
+                <p>Fine Arts background and disciplined journaling instill a sharp eye for detail, visual harmony, and mindful learning habits.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="section education-section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Academic Background</span>
+          <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+          <p class="section-subtitle">The educational milestones shaping my technical knowledge and creative mind.</p>
+        </div>
+
+        <div class="timeline-wrapper">
+          
+          <!-- Timeline Item 1: B.Tech at JECRC -->
+          <div class="timeline-item timeline-current">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-card glass-card">
+              <div class="timeline-card-header">
+                <div>
+                  <span class="status-badge badge-active">Currently Pursuing</span>
+                  <h3 class="degree-title">Bachelor of Technology (B.Tech)</h3>
+                  <h4 class="institute-title">
+                    <i class="fa-solid fa-school"></i> JECRC University
+                  </h4>
+                </div>
+                <div class="timeline-period">
+                  <span class="period-pill"><i class="fa-regular fa-calendar"></i> 2026 – Present</span>
+                  <span class="location-pill"><i class="fa-solid fa-location-dot"></i> Jaipur, Rajasthan, India</span>
+                </div>
+              </div>
+              
+              <div class="timeline-body">
+                <p class="timeline-desc">
+                  Enrolled as a first-year undergraduate engineering student. Building strong foundational groundings in computer programming, discrete mathematics, digital literacy, and engineering methodologies.
+                </p>
+                <div class="timeline-tags">
+                  <span class="course-tag">C Programming</span>
+                  <span class="course-tag">Engineering Mathematics</span>
+                  <span class="course-tag">Problem Solving & Logic</span>
+                  <span class="course-tag">Digital Literacy & Tools</span>
+                  <span class="course-tag">Introduction to AI</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: Senior Secondary (12th) SR Public School -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
+            <div class="timeline-card glass-card">
+              <div class="timeline-card-header">
+                <div>
+                  <span class="status-badge badge-completed">Completed</span>
+                  <h3 class="degree-title">Senior Secondary Education (Class XII)</h3>
+                  <h4 class="institute-title">
+                    <i class="fa-solid fa-school-flag"></i> SR Public School
+                  </h4>
+                </div>
+                <div class="timeline-period">
+                  <span class="period-pill"><i class="fa-regular fa-calendar"></i> Graduated 2026</span>
+                  <span class="location-pill"><i class="fa-solid fa-location-dot"></i> Patna, Bihar, India</span>
+                </div>
+              </div>
+              
+              <div class="timeline-body">
+                <p class="timeline-desc">
+                  Successfully completed Senior Secondary schooling with a comprehensive curriculum blending scientific rigor with fine artistic expression.
+                </p>
+                <div class="stream-badge-wrapper">
+                  <div class="stream-badge">
+                    <strong>Stream:</strong> Science (PCM) with English & Fine Arts
+                  </div>
+                </div>
+                <div class="timeline-tags">
+                  <span class="course-tag">Physics</span>
+                  <span class="course-tag">Chemistry</span>
+                  <span class="course-tag">Mathematics</span>
+                  <span class="course-tag">English</span>
+                  <span class="course-tag tag-highlight">Fine Arts</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-layer-group"></i> Competencies & Focus</span>
+          <h2 class="section-title">Skills & <span class="gradient-text">Learning Areas</span></h2>
+          <p class="section-subtitle">A balanced toolkit of programming, emerging artificial intelligence, and creative problem solving.</p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Category 1: Core Programming -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon text-cyan">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div>
+                <h3>Programming Languages</h3>
+                <span class="category-subtitle">Building technical depth</span>
+              </div>
+            </div>
+
+            <div class="skills-list">
+              <!-- Skill Item: C Programming -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <div class="skill-name-group">
+                    <i class="fa-solid fa-terminal text-cyan"></i>
+                    <span class="skill-name">C Programming</span>
+                  </div>
+                  <span class="skill-level-badge level-active">Active Learning</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress-fill" style="width: 75%;"></div>
+                </div>
+                <p class="skill-note">Pointers, arrays, memory management, syntax & algorithm implementation</p>
+              </div>
+
+              <!-- Skill Item: Java -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <div class="skill-name-group">
+                    <i class="fa-brands fa-java text-amber"></i>
+                    <span class="skill-name">Java Programming</span>
+                  </div>
+                  <span class="skill-level-badge level-foundational">Brief Idea / Foundations</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress-fill" style="width: 50%;"></div>
+                </div>
+                <p class="skill-note">OOP concepts, classes, objects, standard library, and basic control flows</p>
+              </div>
+
+              <!-- Skill Item: Problem Solving -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <div class="skill-name-group">
+                    <i class="fa-solid fa-brain text-purple"></i>
+                    <span class="skill-name">Problem-Solving & Logic</span>
+                  </div>
+                  <span class="skill-level-badge level-active">Continuous Practice</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress-fill" style="width: 70%;"></div>
+                </div>
+                <p class="skill-note">Algorithmic thinking, pattern recognition, and competitive coding fundamentals</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: AI & Generative AI -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon text-purple">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+              </div>
+              <div>
+                <h3>AI & Generative Tech</h3>
+                <span class="category-subtitle">Exploring next-gen intelligence</span>
+              </div>
+            </div>
+
+            <div class="skills-list">
+              <!-- Skill Item: Generative AI -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <div class="skill-name-group">
+                    <i class="fa-solid fa-microchip-ai text-purple"></i>
+                    <span class="skill-name">Generative AI Concepts</span>
+                  </div>
+                  <span class="skill-level-badge level-active">High Interest</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress-fill" style="width: 70%;"></div>
+                </div>
+                <p class="skill-note">LLMs, multimodal AI, text generation pipelines, and assistive coding tools</p>
+              </div>
+
+              <!-- Skill Item: Prompt Writing -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <div class="skill-name-group">
+                    <i class="fa-solid fa-feather text-pink"></i>
+                    <span class="skill-name">Prompt Writing & Engineering</span>
+                  </div>
+                  <span class="skill-level-badge level-active">Hands-on</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress-fill" style="width: 80%;"></div>
+                </div>
+                <p class="skill-note">Role-based prompting, few-shot prompting, structured output formatting</p>
+              </div>
+
+              <!-- Skill Item: Digital Productivity -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <div class="skill-name-group">
+                    <i class="fa-solid fa-sliders text-cyan"></i>
+                    <span class="skill-name">Digital Productivity Systems</span>
+                  </div>
+                  <span class="skill-level-badge level-active">Daily Usage</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress-fill" style="width: 85%;"></div>
+                </div>
+                <p class="skill-note">Knowledge management, Notion, digital note taking, workflow automation</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Creative & Professional Strengths -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon text-pink">
+                <i class="fa-solid fa-pen-ruler"></i>
+              </div>
+              <div>
+                <h3>Creative & Cognitive Skills</h3>
+                <span class="category-subtitle">The human edge</span>
+              </div>
+            </div>
+
+            <div class="skills-list">
+              <!-- Skill Item: Fine Arts & Visual Design -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <div class="skill-name-group">
+                    <i class="fa-solid fa-palette text-pink"></i>
+                    <span class="skill-name">Fine Arts & Aesthetics</span>
+                  </div>
+                  <span class="skill-level-badge level-active">Completed (12th)</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress-fill" style="width: 90%;"></div>
+                </div>
+                <p class="skill-note">Color theory, proportion, visual hierarchy, aesthetic UI sensibility</p>
+              </div>
+
+              <!-- Skill Item: Journaling & Documentation -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <div class="skill-name-group">
+                    <i class="fa-solid fa-book-journal-whills text-amber"></i>
+                    <span class="skill-name">Reflective Journaling</span>
+                  </div>
+                  <span class="skill-level-badge level-active">Consistent Habit</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress-fill" style="width: 90%;"></div>
+                </div>
+                <p class="skill-note">Technical documentation, thought structuring, meta-learning synthesis</p>
+              </div>
+
+              <!-- Skill Item: Critical Reading -->
+              <div class="skill-item">
+                <div class="skill-info">
+                  <div class="skill-name-group">
+                    <i class="fa-solid fa-glasses text-cyan"></i>
+                    <span class="skill-name">Curated Reading & Research</span>
+                  </div>
+                  <span class="skill-level-badge level-active">Passion</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress-fill" style="width: 85%;"></div>
+                </div>
+                <p class="skill-note">Analytical reading of technical papers, documentation, and conceptual essays</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS & MILESTONES SECTION -->
+    <section id="achievements" class="section achievements-section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-trophy"></i> Growth & Milestones</span>
+          <h2 class="section-title">Milestones & <span class="gradient-text">Achievements</span></h2>
+          <p class="section-subtitle">Demonstrating consistent curiosity, self-driven study, and proactive exploration.</p>
+        </div>
+
+        <div class="achievements-grid">
+          
+          <div class="achievement-card glass-card">
+            <div class="achievement-badge-icon bg-gradient-cyan">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <div class="achievement-content">
+              <span class="achievement-tag">Coding Milestone</span>
+              <h3>C Programming Problem-Solving Journey</h3>
+              <p>Actively solving curated challenges in C programming focusing on loops, recursion, multidimensional arrays, and pointer manipulation to construct a rock-solid computational mindset.</p>
+              <ul class="achievement-points">
+                <li><i class="fa-solid fa-check"></i> Mastered basic logic structures and flow control</li>
+                <li><i class="fa-solid fa-check"></i> Hands-on experiments with memory address operations</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="achievement-card glass-card">
+            <div class="achievement-badge-icon bg-gradient-purple">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <div class="achievement-content">
+              <span class="achievement-tag">AI Innovation</span>
+              <h3>Generative AI & Prompt Playbook</h3>
+              <p>Constructed a personal digital repository of high-efficiency prompts for programming assistance, conceptual simplification, study flashcard generation, and workflow automation.</p>
+              <ul class="achievement-points">
+                <li><i class="fa-solid fa-check"></i> Designed targeted prompts for algorithmic code analysis</li>
+                <li><i class="fa-solid fa-check"></i> Leveraged AI for accelerated concept revision in B.Tech subjects</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="achievement-card glass-card">
+            <div class="achievement-badge-icon bg-gradient-pink">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <div class="achievement-content">
+              <span class="achievement-tag">Academic & Creative</span>
+              <h3>Senior Secondary Distinction with Fine Arts</h3>
+              <p>Completed 12th board examinations from SR Public School, Patna (2026), harmonizing rigorous PCM with Fine Arts to foster both analytical calculation and creative lateral thinking.</p>
+              <ul class="achievement-points">
+                <li><i class="fa-solid fa-check"></i> Strong foundation in Mathematics & Logical Deduction</li>
+                <li><i class="fa-solid fa-check"></i> Recognized for artistic and creative project presentations</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="achievement-card glass-card">
+            <div class="achievement-badge-icon bg-gradient-amber">
+              <i class="fa-solid fa-book-bookmark"></i>
+            </div>
+            <div class="achievement-content">
+              <span class="achievement-tag">Personal Development</span>
+              <h3>Knowledge Management & Journaling Habit</h3>
+              <p>Maintained a structured daily journaling and technical reading regime, logging coding bug resolutions, daily learnings, and productivity reviews across the semester.</p>
+              <ul class="achievement-points">
+                <li><i class="fa-solid fa-check"></i> 100+ pages of reflective and technical logs</li>
+                <li><i class="fa-solid fa-check"></i> Digital second-brain implementation for academic notes</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-paper-plane"></i> Let's Connect</span>
+          <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+          <p class="section-subtitle">Whether you'd like to discuss a project, share advice, or collaborate, feel free to reach out!</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Details Cards -->
+          <div class="contact-info-column">
+            
+            <div class="contact-card glass-card">
+              <div class="contact-icon bg-gradient-cyan">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <span class="contact-label">Email Address</span>
+                <a href="mailto:ankita.priyadarshi25@gmail.com" class="contact-val">ankita.priyadarshi25@gmail.com</a>
+                <button type="button" class="btn-copy-mini" data-copy="ankita.priyadarshi25@gmail.com" title="Copy email">
+                  <i class="fa-regular fa-copy"></i> Copy Email
+                </button>
+              </div>
+            </div>
+
+            <div class="contact-card glass-card">
+              <div class="contact-icon bg-gradient-purple">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-text">
+                <span class="contact-label">Phone Number</span>
+                <a href="tel:9102748512" class="contact-val">+91 9102748512</a>
+                <button type="button" class="btn-copy-mini" data-copy="9102748512" title="Copy phone number">
+                  <i class="fa-regular fa-copy"></i> Copy Number
+                </button>
+              </div>
+            </div>
+
+            <div class="contact-card glass-card">
+              <div class="contact-icon bg-gradient-amber">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+              <div class="contact-text">
+                <span class="contact-label">LinkedIn Profile</span>
+                <a href="https://www.linkedin.com/in/ankita-priyadarshi" target="_blank" rel="noopener noreferrer" class="contact-val">
+                  linkedin.com/in/ankita-priyadarshi
+                </a>
+                <span class="contact-subtext">Open to professional connections</span>
+              </div>
+            </div>
+
+            <div class="contact-card glass-card">
+              <div class="contact-icon bg-gradient-pink">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-text">
+                <span class="contact-label">Current Locations</span>
+                <p class="contact-val">JECRC University, Jaipur, Rajasthan</p>
+                <span class="contact-subtext">Hometown: Patna, Bihar, India</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Interactive Message Form -->
+          <div class="contact-form-column">
+            <div class="contact-form-card glass-card">
+              <h3 class="form-title">Send Me a Message</h3>
+              <p class="form-desc">Fill out the quick form below to send an email straight to my inbox.</p>
+              
+              <form id="portfolio-contact-form" class="portfolio-form" action="mailto:ankita.priyadarshi25@gmail.com" method="POST" enctype="text/plain">
+                <div class="form-group">
+                  <label for="sender-name">Your Name <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i class="fa-regular fa-user input-icon"></i>
+                    <input type="text" id="sender-name" name="name" placeholder="e.g. Professor Sharma / Alex Smith" required>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="sender-email">Your Email <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i class="fa-regular fa-envelope input-icon"></i>
+                    <input type="email" id="sender-email" name="email" placeholder="e.g. yourname@example.com" required>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="sender-subject">Subject</label>
+                  <div class="input-wrapper">
+                    <i class="fa-regular fa-comment-dots input-icon"></i>
+                    <input type="text" id="sender-subject" name="subject" placeholder="Portfolio Feedback / Collaboration / Inquiry">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="sender-message">Message <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <textarea id="sender-message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+                  </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block" id="submit-message-btn">
+                  <i class="fa-solid fa-paper-plane"></i>
+                  <span>Send Message</span>
+                </button>
+              </form>
+
+              <div class="form-notice">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span>Your details are never shared. Direct inquiries reach ankita.priyadarshi25@gmail.com.</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="nav-logo">
+          <span class="logo-badge">AP</span>
+          <span class="logo-text">Ankita Priyadarshi</span>
+        </div>
+        <p class="footer-tagline">B.Tech First Year Student &bull; JECRC University, Jaipur</p>
+      </div>
+
+      <div class="footer-social-links">
+        <a href="mailto:ankita.priyadarshi25@gmail.com" class="footer-link" title="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="tel:9102748512" class="footer-link" title="Phone"><i class="fa-solid fa-phone"></i></a>
+        <a href="https://www.linkedin.com/in/ankita-priyadarshi" target="_blank" rel="noopener noreferrer" class="footer-link" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-link" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ankita Priyadarshi. Crafted with passion, code & creativity.</p>
+        <button type="button" class="back-to-top" id="back-to-top-btn" aria-label="Back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- RESUME MODAL PREVIEW & DOWNLOAD -->
+  <div class="resume-modal-overlay" id="resume-modal" aria-hidden="true" role="dialog" aria-labelledby="resume-modal-title">
+    <div class="resume-modal-card">
+      <div class="resume-modal-header">
+        <div class="resume-header-titles">
+          <h3 id="resume-modal-title"><i class="fa-solid fa-file-invoice"></i> Professional Resume Preview</h3>
+          <p>Ankita Priyadarshi &bull; B.Tech First Year Student</p>
+        </div>
+        <div class="resume-header-actions">
+          <button type="button" class="btn btn-sm btn-primary" id="print-resume-btn">
+            <i class="fa-solid fa-print"></i> Print / Save as PDF
+          </button>
+          <a href="resume.html" target="_blank" class="btn btn-sm btn-outline" title="Open Fullpage Printable Resume">
+            <i class="fa-solid fa-up-right-from-square"></i> Standalone View
+          </a>
+          <button type="button" class="modal-close-btn" id="close-resume-modal" aria-label="Close Resume Modal">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Scrollable Resume Body Document -->
+      <div class="resume-modal-body" id="printable-resume-content">
+        <div class="resume-document">
+          
+          <!-- Resume Doc Header -->
+          <div class="doc-header">
+            <div>
+              <h1 class="doc-name">ANKITA PRIYADARSHI</h1>
+              <p class="doc-subtitle">B.Tech First Year Student &bull; Aspiring Software Engineer</p>
+            </div>
+            <div class="doc-contact">
+              <p><i class="fa-solid fa-envelope"></i> ankita.priyadarshi25@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i> +91 9102748512</p>
+              <p><i class="fa-solid fa-location-dot"></i> Jaipur, Rajasthan / Patna, Bihar</p>
+              <p><i class="fa-brands fa-linkedin"></i> linkedin.com/in/ankita-priyadarshi</p>
+            </div>
+          </div>
+
+          <hr class="doc-divider">
+
+          <!-- Summary -->
+          <div class="doc-section">
+            <h4 class="doc-section-title">PROFESSIONAL SUMMARY</h4>
+            <p class="doc-text">
+              Motivated and analytically minded B.Tech First Year student at JECRC University, Jaipur. Combining a solid foundation in Mathematics and Science with creative lateral thinking developed through Fine Arts. Actively learning C programming, object-oriented concepts in Java, and algorithmic problem-solving. Deeply enthusiastic about Generative AI, prompt engineering, and digital productivity frameworks to solve real-world problems.
+            </p>
+          </div>
+
+          <!-- Education -->
+          <div class="doc-section">
+            <h4 class="doc-section-title">EDUCATION</h4>
+            <div class="doc-item">
+              <div class="doc-item-row">
+                <strong>Bachelor of Technology (B.Tech) - 1st Year</strong>
+                <span>2026 – Present</span>
+              </div>
+              <div class="doc-item-sub">JECRC University, Jaipur, Rajasthan, India</div>
+              <p class="doc-item-desc">Focus on C Programming, Logic Building, Engineering Mathematics, Discrete Structures, and Emerging AI Technologies.</p>
+            </div>
+
+            <div class="doc-item">
+              <div class="doc-item-row">
+                <strong>Senior Secondary Education (Class 12th)</strong>
+                <span>Graduated 2026</span>
+              </div>
+              <div class="doc-item-sub">SR Public School, Patna, Bihar, India</div>
+              <p class="doc-item-desc">Subjects: Physics, Chemistry, Mathematics (PCM), English, and Fine Arts.</p>
+            </div>
+          </div>
+
+          <!-- Technical & Soft Skills -->
+          <div class="doc-section">
+            <h4 class="doc-section-title">TECHNICAL & RELEVANT SKILLS</h4>
+            <ul class="doc-skills-list">
+              <li><strong>Programming Languages:</strong> C Programming (Active Core), Java (Basic / Object-Oriented Fundamentals)</li>
+              <li><strong>Concepts & Problem Solving:</strong> Algorithmic Logic, Flowcharts, Data Representation, Debugging</li>
+              <li><strong>AI & Emerging Tech:</strong> Generative AI Principles, Prompt Writing & Structuring, AI-Assisted Workflows</li>
+              <li><strong>Digital Productivity:</strong> Notion, Digital Note-taking Systems, Knowledge Architecture, Markdown</li>
+              <li><strong>Creative & Cognitive:</strong> Fine Arts (Composition & Visual Design), Reflective Journaling, Critical Research & Reading</li>
+            </ul>
+          </div>
+
+          <!-- Key Projects / Learning Milestones -->
+          <div class="doc-section">
+            <h4 class="doc-section-title">KEY LEARNING MILESTONES & PROJECTS</h4>
+            <div class="doc-item">
+              <div class="doc-item-row">
+                <strong>Personal Web Portfolio & Knowledge Showcase</strong>
+                <span>2026</span>
+              </div>
+              <p class="doc-item-desc">Architected and deployed a responsive, aesthetic personal portfolio website showcasing academic qualifications, core programming competencies, and creative interests with light/dark accessibility.</p>
+            </div>
+
+            <div class="doc-item">
+              <div class="doc-item-row">
+                <strong>Algorithmic C Programming Challenge Track</strong>
+                <span>2026</span>
+              </div>
+              <p class="doc-item-desc">Designed and implemented modular C programs solving mathematical, array manipulation, and pointer logic problems to strengthen computational problem-solving speed.</p>
+            </div>
+
+            <div class="doc-item">
+              <div class="doc-item-row">
+                <strong>Generative AI Prompt Library & Study Assistant</strong>
+                <span>2026</span>
+              </div>
+              <p class="doc-item-desc">Curated a systematic library of prompt templates for breaking down complex B.Tech engineering concepts into intuitive metaphors and flashcards.</p>
+            </div>
+          </div>
+
+          <!-- Extracurricular & Hobbies -->
+          <div class="doc-section">
+            <h4 class="doc-section-title">INTERESTS & ACTIVITIES</h4>
+            <p class="doc-text">
+              Daily Journaling & Reflective Writing &bull; Fine Arts & Sketching &bull; Tech & Philosophy Reading &bull; Exploring Productivity Automation
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toast" role="alert" aria-live="assertive">
+    <i class="fa-solid fa-circle-check toast-icon"></i>
+    <span class="toast-message" id="toast-message">Copied to clipboard!</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
